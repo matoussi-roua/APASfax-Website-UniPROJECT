@@ -40,3 +40,5 @@ Si vous avez des questions ou souhaitez entrer en contact avec nous, n'hésitez 
 - Malek Jamoussi : [malek.jamoussi@ensi-uma.tn]
 
 Nous serions ravis de vous entendre et ferons de notre mieux pour vous répondre dès que possible !
+
+Avis important : Ce projet n'est pas à des fins commerciales.
