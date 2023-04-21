@@ -1,4 +1,4 @@
-# APAsfax-Website-SchoolPROJECT
+# APASfax-Website-SchoolPROJECT
 
 
 # APA Sfax - Association de Protection Animale
@@ -35,7 +35,7 @@ Si vous souhaitez contribuer à ce projet, vous pouvez créer une branche à par
 ## Contact
 Si vous avez des questions ou souhaitez entrer en contact avec nous, n'hésitez pas à contacter l'un des membres de notre équipe :
 
-- Ayoub Hlaili : [ayoub.hlaili@ensi-uma.tn]
+- Ayoub Hlaili : [ayoub.halaili@ensi-uma.tn]
 - Roua Mattousi : [roua.mattousi@ensi-uma.tn]
 - Malek Jamoussi : [malek.jamoussi@ensi-uma.tn]
 
