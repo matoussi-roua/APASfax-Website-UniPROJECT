@@ -1,0 +1,469 @@
+/* 3e3a40  gris
+ebb91d jaune
+f9eb8f beige
+cdc8ab gris fetah
+5c6074 bleugris */
+
+/* navbar */
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;   
+  }
+  
+  body {
+    position: relative;
+  font-family: "Montserrat", sans-serif;
+  }
+  
+  .HEAD {
+  position: relative;
+  }
+  
+  nav {
+  z-index: 1;
+  position: relative;
+  }
+  
+  
+  
+  nav {
+  text-align: center;
+  width: 100%;
+  height: 14vh;
+  margin: 0;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0.1% auto;
+  border-bottom-left-radius:10% ;
+  border-bottom-right-radius: 10%;
+  }
+  #navb{
+    position: fixed;
+  }
+  a{
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.1vw;
+  }
+  
+  nav:hover{
+  opacity: 100%;
+  }
+  
+  .navbar {
+  padding: .3% 0;
+  display: inline-block;
+  }
+  
+  .navbar > li {
+  float: left;
+  width: 14%;
+  height: 13vh;
+  line-height: 14vh;
+  cursor: pointer;
+
+
+  }
+  
+  .sub-menu li {
+    width: 120%;
+    border-bottom: #f9eb8f 0.1px solid;
+
+    line-height:8vh;
+    height: 8vh;
+    font-size: 2vh;
+    background: #ebb81d00;
+    padding: 0px 0;
+    transform: scale(0);
+    transform-origin: top center;
+    transition: all 100ms ease-in-out;
+    }
+/* 3e3a40  gris
+ebb91d jaune
+f9eb8f beige
+cdc8ab gris fetah
+5c6074 bleugris */
+  .navbar > li:hover a {
+  color:  #ebb91d;
+  font-size: 1.25vw;
+  
+  }
+  
+  .sub-menu {
+  transform: scale(0);
+  transform-origin: top center;
+  transition: all 300ms ease-in-out;
+  
+  }
+  
+  
+  .sub-menu li:last-child {
+  border-bottom: 0;
+  }
+  
+  .sub-menu li:hover a{
+  color: #000000;
+  font-size: 1.45vw;
+  }
+  
+  .navbar > li:hover .sub-menu li {
+  transform: scale(1);
+  }
+  
+  .navbar > li:hover .sub-menu {
+  transform: scale(1);
+  }
+  .logo{
+    padding-top: 0.7vh;
+  }
+  
+  #img{
+
+  width: 40%;
+  }
+  /* footer */
+  
+  .footer {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  background-color: #cdc8ab;
+  bottom: 0px;
+  
+  }
+  
+  .copyright{
+  position: absolute;
+  width: 100%;
+  color: #3e3a40;
+  line-height: 300%;
+  font-size: 0.8em;
+  text-align: center;
+  bottom:5px;
+  }
+
+  /* l image de background */
+
+  .imageHead  {
+  
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  margin-top: 10vw;
+  padding-top: 15vw;
+  color: white;
+  text-shadow: 0px 0px 4px black;
+  position: absolute;
+  top: 0; /* align to top edge of screen */
+  left: 0;
+  right: 0;
+  }
+
+  .imageHead span {
+    position: relative;
+    display: inline-block;
+    font-size: 4vw;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+/* formulaire et info */
+
+.container{
+  position: absolute;
+  top: 36vw;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+/* formulaire */
+
+  .left {
+   
+    position: relative;
+    width: 35vw;
+    background-color: rgba(255,255,255,0.1);
+    height: 55vw;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 5% 5.5vw 0;
+    z-index: 0;
+    margin-left: 9vw;
+    transform: scale(1);
+    order: 1;
+    
+  
+  }
+  /* .child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);} */
+     /* centre l'élément horizontalement et verticalement */
+  
+h2 {
+  font-size: 1.8vw;
+  margin-bottom: 0.2vw;
+  color: white;
+}   
+  
+.titre {
+  margin: 0.5vw;
+    font-weight: 1.4vw;
+    color: #cdc8ab;
+    font-size: 1.5vw; 
+}
+
+#objet{
+      width: 19vw;
+      height: 3vw;
+      border-radius: 10px;
+}
+.case{
+      width: 19vw;
+      height: 3vw;
+      border-radius: 10px;
+     }
+
+  /* textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  } */
+
+  /* select{
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  } */
+
+    /* autre remarque */
+    .textarea{
+      width:19vw ;
+      height:8vw ;
+      border-radius: 5px;
+      font-size: 1.2vw;
+    }
+
+
+  /* bouton */
+
+  input[type="submit"] {
+    background-color:  #cdc8ab;
+    color: #3e3a40;
+    padding: 1vw 2vw ;
+    margin-left: 2.5vw;
+    margin-top: 1vw;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 14vw;
+    height: 3.5vw;
+    text-align: center;
+    border-style: none;
+    font-family: 'Poppins',sans-serif;
+    font-weight: normal;
+    font-size: 1.5vw;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+  /* 3e3a40  gris
+ebb91d jaune
+f9eb8f beige
+cdc8ab gris fetah
+5c6074 bleugris */
+
+  input[type="submit"]:hover {
+    background-color: #ebb91d;
+    color: white;
+  }
+
+
+
+
+  .suiveznous1{
+        font-size: 16px;
+        text-align: center;
+        color: #020513;
+        margin-bottom: 3%;
+        margin-left: 7%;
+        margin-top: 7%;
+  }
+  .suiveznous{
+    margin-left: 5%;
+    
+  }
+
+
+  .right {
+    position: relative;
+    height: 55vw;
+    width: 35vw;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 3vw 3vw;
+    z-index: 0;
+    margin-right: 9vw;
+    transform: scale(1);
+    order: 2;
+  }
+  /* .child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);} */
+     /* centre l'élément horizontalement et verticalement */
+  
+
+
+  
+  .adresse0{
+    color: #3E3A40;
+    margin-bottom: 2%;
+    margin-top: 0%;
+  }
+    
+  .route,.gmail,i,.tlp,.suiveznous{
+    font-size: 1.2vw;
+    padding: 1vw 0% 0%;
+  }
+    .adresse {
+        margin-top: -3%;
+        margin-bottom: 5%;
+        padding-top: 2vw;
+        text-align: center;
+        margin-left: 0%;
+        
+    }
+    
+  
+  i:hover {
+    opacity: 0.6;
+    font-size:1.3vw;
+    color: #5c6074;
+  }
+  .map{
+    width: 28vw;
+    height: 22vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+    border-radius: 15px;
+  }
+
+  
+
+
+
+
+
+
+/* notre equipe */
+  
+  .equipe{
+    color: white;
+    text-align: center;
+    font-size: 1.8vw;
+    margin-bottom: (5%);
+
+
+  }
+  .equipe1{
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    font-weight: bold;
+    top: 97vw;
+    height: 24vw;
+    width: 100%;
+    background-color: rgba(255,255,255,0.13);
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 1vw 4vw;
+    z-index: 0;
+    transform: scale(1);
+    order: 1;
+  }
+  /* .child {
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%, -50%);}*/
+     /* centre l'élément horizontalement et verticalement */
+  
+
+  .container4{
+    margin-top: 3%;
+  }
+
+  .president{
+    margin-left: 13%;
+    color: #3E3A40;
+    margin-bottom: 4%;
+    color: #cdc8ab;
+    
+  }
+  .img-president{
+    margin-top: 2%;
+    margin-left: 20%;
+    
+  }
+  
+  
+  .droite{
+    float: right;
+    width: 40%;
+    text-align: right;
+    background-color: none;
+    margin-right: 10%;
+  }
+  .gauche{
+    float: left;
+    width: 40%;
+    text-align: right;
+    background-color: none;
+    margin-right: 10%;
+  }
+  .inconnue{
+    margin-right: 0%;
+    color: #3E3A40;
+    margin-bottom: 6%;
+    margin-left: 0%;
+    color: #cdc8ab;
+  }
+  .img-inconnue{
+    margin-top: 2%;
+    color: #cdc8ab;
+  }
+  
+  .img2{
+    width: 100%;
+    filter: blur(2,5px);
+  }
+  
