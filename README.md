@@ -17,7 +17,7 @@ Le projet contient les pages suivantes :
 
 - Accueil : présentation de l'association, du refuge et des événements
 - Nos animaux : présentation des chiens et chats disponibles à l'adoption
-- Nous aider : informations sur les moyens de contribuer à l'association
+- Aider Nous : informations sur les moyens de contribuer à l'association
 - Dons : formulaire de don en ligne
 - Contact : formulaire de contact pour contacter l'association
 - Se connecter : formulaire de connexion pour les membres de l'association
