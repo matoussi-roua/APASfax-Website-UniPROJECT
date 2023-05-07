@@ -14,6 +14,7 @@ cdc8ab gris fetah
   body {
     position: relative;
   font-family: "Montserrat", sans-serif;
+
   }
   
   .HEAD {
@@ -30,23 +31,24 @@ cdc8ab gris fetah
   nav {
   text-align: center;
   width: 100%;
-  height: 14vh;
+  height: 6.5vw;
   margin: 0;
   z-index: 1;
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  background-color: #000000;
   padding: 0.1% auto;
-  border-bottom-left-radius:10% ;
-  border-bottom-right-radius: 10%;
+  /* border-bottom-left-radius:10% ;
+  border-bottom-right-radius: 10%; */
+  opacity: 90%;
   }
   #navb{
     position: fixed;
   }
   a{
-  color: #000000;
-  font-weight: bold;
+  color: #f9eb8f;
   font-size: 1.1vw;
   }
   
@@ -62,8 +64,8 @@ cdc8ab gris fetah
   .navbar > li {
   float: left;
   width: 14%;
-  height: 13vh;
-  line-height: 14vh;
+  height: 6.5vw;
+  line-height: 6.5vw;
   cursor: pointer;
 
 
@@ -73,8 +75,8 @@ cdc8ab gris fetah
     width: 120%;
     border-bottom: #f9eb8f 0.1px solid;
 
-    line-height:8vh;
-    height: 8vh;
+    line-height:5.5vw;
+    height: 5vw;
     font-size: 2vh;
     background: #ebb81d00;
     padding: 0px 0;
@@ -106,8 +108,14 @@ cdc8ab gris fetah
   }
   
   .sub-menu li:hover a{
-  color: #000000;
+  color: #f9eb8f;
   font-size: 1.45vw;
+  
+  }
+
+  .sub-menu li{
+    background-color: #000000;
+    opacity: 80%;
   }
   
   .navbar > li:hover .sub-menu li {
@@ -181,54 +189,29 @@ cdc8ab gris fetah
 img{
     width: 100%;
   }
-.component1{
-  background-color: #f9eb8f;
-  padding-top: 5%;
-  margin-top: 3%;
-  padding-bottom: 5%;
-}
+
 /* 3e3a40  gris
 ebb91d jaune
 f9eb8f beige
 cdc8ab gris fetah
 5c6074 bleugris */
-  .nous{
-   
-    text-align:center;
-    display: flex;
-    justify-content: space-between;
-    align-items: top;
-    flex-direction: row;
-    width: 100%;
-    padding-top: 0%;
-  }
-  p{
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 0%;
-  }
-  h1,h3{
-    padding-bottom: 5%;
-    text-align: center;
-  }
-  .description{
-    margin-top: 5%;
-    width: 32%;
-    padding: 0%;
 
 
-   
-  }
-  .titre{
-    align-content: center;
-  }
-
+ 
+ 
+/* gallerie pour notre refuge */
   .component2{
-    background-color: #f9eb8f;
+    background-color: #ffff;
     padding: 5%;
-    margin-top: 3%;
+    margin-top: 0%;
+    min-height: 65vw;
 
     }
+    h3{
+      padding-bottom: 5%;
+      text-align: center;
+    }
+  
     /* 3e3a40  gris
 ebb91d jaune
 f9eb8f beige
@@ -271,4 +254,229 @@ cdc8ab gris fetah
 
 }
 
-    
+  /* presentation de notre association */
+
+.container {
+  background: linear-gradient(135deg, #D9B504, #F2F2F0, #BF7E04, #BF6B04, #A63F03, #FFFFFF);
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;  
+  padding: 6vw;
+  margin-top: -1%;
+  align-items: center;
+  width: 100%;
+}
+
+.titre_association ,.titre_association2{
+  text-align: center;
+  color: rgb(0, 0, 0);
+ margin: auto;
+ padding-bottom: 5vw;
+ font-size: 2.5vw;
+}
+.titre_association2{
+  text-align: center;
+}
+
+.box {
+  margin-top: 19VW;
+  margin-bottom: 5vw;
+  position: relative;
+  width: 25vw;
+  height:27vw;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease-in-out;
+  
+}
+
+.box:hover {
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  color:white;
+  width: 100%;
+  text-align: center;
+  font-size: 2vw;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+} 
+
+.box:hover .title {
+  background-color: transparent;
+  color: transparent;
+  opacity: 0;
+}
+
+.paragraph {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  width: 90%;
+  text-align: center;
+  font-size: 1.3vw;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.box:hover .paragraph {
+  opacity: 1;
+}
+
+
+
+
+.box:hover .button {
+  opacity: 1;
+}
+
+#box1, #box3{
+  transform: translateY(-50%);
+}
+#box2{
+  transform: rotate(10deg)
+}
+
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.footer-section {
+background: #151414;
+position: relative;
+}
+.footer-cta {
+border-bottom: 1px solid #373636;
+}
+.single-cta i {
+color: #ff5e14;
+font-size: 30px;
+float: left;
+margin-top: 8px;
+}
+.cta-text {
+padding-left: 15px;
+display: inline-block;
+}
+.cta-text h4 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: #757575;
+font-size: 15px;
+}
+.footer-content {
+position: relative;
+z-index: 2;
+}
+.footer-pattern img {
+position: absolute;
+top: 0;
+left: 0;
+height: 330px;
+background-size: cover;
+background-position: 100% 100%;
+}
+.footer-logo {
+margin-bottom: 30px;
+}
+.footer-logo img {
+  max-width: 100px;
+}
+
+.footer-widget-heading h3 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 40px;
+position: relative;
+}
+.footer-widget-heading h3::before {
+content: "";
+position: absolute;
+left: 0;
+bottom: -15px;
+height: 2px;
+width: 50px;
+background: #ff5e14;
+}
+.footer-widget ul li {
+display: inline-block;
+float: left;
+width: 50%;
+margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+color: #ff5e14;
+}
+.footer-widget ul li a {
+color: #878787;
+text-transform: capitalize;
+}
+.subscribe-form {
+position: relative;
+overflow: hidden;
+width: 20%;
+}
+.subscribe-form input {
+width: 100%;
+padding: 14px 28px;
+background: #2E2E2E;
+border: 1px solid #2E2E2E;
+color: #fff;
+}
+.subscribe-form button {
+  position: absolute;
+  right: 0;
+  background: #ff5e14;
+  padding: 13px 20px;
+  border: 1px solid #ff5e14;
+  top: 0;
+  width: 30%;
+  height: 100%;
+}
+.subscribe-form button i {
+color: #fff;
+font-size: 22px;
+transform: rotate(-6deg);
+}
+.copyright-area{
+background: #202020;
+padding: 25px 0;
+}
+.copyright-text p {
+margin: 0;
+font-size: 14px;
+color: #878787;
+}
+.copyright-text p a{
+color: #ff5e14;
+}
+.footer-menu li {
+display: inline-block;
+margin-left: 20px;
+}
+.footer-menu li:hover a{
+color: #ff5e14;
+}
+.footer-menu li a {
+font-size: 14px;
+color: #878787;
+}

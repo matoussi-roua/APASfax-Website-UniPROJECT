@@ -202,9 +202,9 @@ bottom:5px;
   text-shadow: 0px 0px 4px black;
   position: absolute;
   top: 0; /* align to top edge of screen */
-  left: 0;
+  /* left: 0;
   right: 0;
-}
+} */
 .imageHead h1{
   background-size: cover;
 background-position: center;
