@@ -16,7 +16,8 @@ cdc8ab gris fetah
   body {
     position: relative;
   font-family: "Montserrat", sans-serif;
-  }
+  overflow-x: hidden;  
+}
   
   .HEAD {
   position: relative;
