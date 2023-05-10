@@ -5,20 +5,19 @@ f9eb8f beige
 cdc8ab gris fetah
 5c6074 bleugris */
 * {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    box-sizing: border-box;
-    text-decoration: none;   
-    }
-    
-    body {
-      position: relative;
-    font-family: "Montserrat", sans-serif;
-    overflow-x: hidden;  
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  text-decoration: none;   
   }
-    
-    .HEAD {
+  
+  body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+  }
+  
+  .HEAD {
     position: relative;
     }
     
@@ -30,28 +29,29 @@ cdc8ab gris fetah
     
     
     nav {
-    text-align: center;
-    width: 100%;
-    height: 14vh;
-    margin: 0;
-    z-index: 1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 0.1% auto;
-    border-bottom-left-radius:10% ;
-    border-bottom-right-radius: 10%;
-    }
+      text-align: center;
+      width: 100%;
+      height: 6.5vw;
+      margin: 0;
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      left: 0;
+      /* background-color: rgba(255, 255, 255, 0.8); */
+      background-color: #000000;
+      padding: 0.1% auto;
+      /* border-bottom-left-radius:10% ;
+      border-bottom-right-radius: 10%; */
+      opacity: 90%;
+      }
     /* #navb{
       position: fixed;
     } */
     a{
-    color: #000000;
-    font-weight: bold;
-    font-size: 1.1vw;
-    }
-    
+      color: #f9eb8f;
+      font-size: 1.1vw;
+      }
+  
     nav:hover{
     opacity: 100%;
     }
@@ -64,19 +64,18 @@ cdc8ab gris fetah
     .navbar > li {
     float: left;
     width: 14%;
-    height: 13vh;
-    line-height: 14vh;
+    height: 6.5vw;
+    line-height: 6.5vw;
     cursor: pointer;
   
   
     }
-    
     .sub-menu li {
       width: 120%;
       border-bottom: #f9eb8f 0.1px solid;
   
-      line-height:8vh;
-      height: 8vh;
+      line-height:5.5vw;
+      height: 5vw;
       font-size: 2vh;
       background: #ebb81d00;
       padding: 0px 0;
@@ -106,12 +105,15 @@ cdc8ab gris fetah
     .sub-menu li:last-child {
     border-bottom: 0;
     }
-    
+  
     .sub-menu li:hover a{
-    color: #000000;
+    color: #f9eb8f;
     font-size: 1.45vw;
     }
-    
+    .sub-menu li{
+      background-color: #000000;
+      opacity: 80%;
+    } 
     .navbar > li:hover .sub-menu li {
     transform: scale(1);
     }
@@ -127,6 +129,7 @@ cdc8ab gris fetah
   
     width: 40%;
     }
+    
     
     
     .footer {
