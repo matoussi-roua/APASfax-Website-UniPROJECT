@@ -133,7 +133,7 @@ cdc8ab gris fetah
     
     
     .footer {
-    position: absolute;
+    position: relative;
     height: 50px;
     width: 100%;
     background-color: #cdc8ab;
@@ -246,7 +246,7 @@ margin-bottom: -20px;
   opacity:0;
   z-index: 0;
   
-  height: 520px;
+  height: 680px;
   width: 400px;
   background-color: rgba(255,255,255,0.13);
   position: absolute;
