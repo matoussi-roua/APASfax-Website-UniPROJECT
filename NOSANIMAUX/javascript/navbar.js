@@ -2,10 +2,10 @@ window.addEventListener("scroll", function(){
     var navb = document.getElementById("navb");
     if(window.pageYOffset > 0){
         
-      navb.style.height = "13vh";
+      navb.style.height = "6.5vw";
     }
     else{
-        navb.style.height = "14vh";
+        navb.style.height = "6.5vw";
     }
 
   });
