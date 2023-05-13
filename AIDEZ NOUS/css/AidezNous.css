@@ -9,6 +9,7 @@ text-decoration: none;
 body {
 font-family: "Montserrat", sans-serif;
 background: linear-gradient(135deg, #D9B504, #F2F2F0, #BF7E04, #BF6B04, #A63F03, #FFFFFF);
+
 }
 
 .HEAD {
@@ -23,28 +24,29 @@ background: linear-gradient(135deg, #D9B504, #F2F2F0, #BF7E04, #BF6B04, #A63F03,
   
   
   nav {
-  text-align: center;
-  width: 100%;
-  height: 14vh;
-  margin: 0;
-  z-index: 1;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 0.1% auto;
-  border-bottom-left-radius:10% ;
-  border-bottom-right-radius: 10%;
-  }
+    text-align: center;
+    width: 100%;
+    height: 6.5vw;
+    margin: 0;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    background-color: #000000;
+    padding: 0.1% auto;
+    /* border-bottom-left-radius:10% ;
+    border-bottom-right-radius: 10%; */
+    opacity: 90%;
+    }
   /* #navb{
     position: fixed;
   } */
   a{
-  color: #000000;
-  font-weight: bold;
-  font-size: 1.1vw;
-  }
-  
+    color: #f9eb8f;
+    font-size: 1.1vw;
+    }
+
   nav:hover{
   opacity: 100%;
   }
@@ -57,19 +59,18 @@ background: linear-gradient(135deg, #D9B504, #F2F2F0, #BF7E04, #BF6B04, #A63F03,
   .navbar > li {
   float: left;
   width: 14%;
-  height: 13vh;
-  line-height: 14vh;
+  height: 6.5vw;
+  line-height: 6.5vw;
   cursor: pointer;
 
 
   }
-  
   .sub-menu li {
     width: 120%;
     border-bottom: #f9eb8f 0.1px solid;
 
-    line-height:8vh;
-    height: 8vh;
+    line-height:5.5vw;
+    height: 5vw;
     font-size: 2vh;
     background: #ebb81d00;
     padding: 0px 0;
@@ -99,12 +100,15 @@ cdc8ab gris fetah
   .sub-menu li:last-child {
   border-bottom: 0;
   }
-  
+
   .sub-menu li:hover a{
-  color: #000000;
+  color: #f9eb8f;
   font-size: 1.45vw;
   }
-  
+  .sub-menu li{
+    background-color: #000000;
+    opacity: 80%;
+  } 
   .navbar > li:hover .sub-menu li {
   transform: scale(1);
   }
@@ -141,25 +145,117 @@ cdc8ab gris fetah
   bottom:5px;
   }
  */
-
-.footer {
+/* footer */
+ .footer-section {
+  background: #151414;
   position: relative;
-  height: 50px;
   width: 100%;
-  background-color: #f2f2f2;
-  bottom: 0px;
+  }
+  
+  
+  .footer-content {
+  position: relative;
+  padding-top: 3vw;
+  }
+  
+  /* .footer-logo {
+  margin-bottom: 1vw;
+  text-align: center;
+  padding: 2vw;
+  }
+  
+  .footer-logo img {
+    max-width: 7vw;
+  } */
+  /* 3e3a40  gris
+  ebb91d jaune
+  f9eb8f beige
+  cdc8ab gris fetah
+  5c6074 bleugris */
+  
+  /* abonnez vous a newsletter */
+  .footer-text{
+    text-align: center;
+    padding: 2vw;
+    color: #f9eb8f;
+    padding-top: 4vw;
+    font-size: 1vw;
+  }
+  .footer-widget{
+    text-align: center;
+  }
+  /* le schema  */
+  .footer-widget ul li {
+  display: inline-block;
+  width: 25vw;
+  text-align: center;
+  margin-bottom: 1.5vw;
+  
+  
+  }
+  .border{
+    border-right: #cdc8ab solid 1px;
+  
+  }
+  .footer-widget ul li a:hover{
+  color: #ebb91d;
+  }
+  .footer-widget ul li a {
+  color: #ffff;
+  opacity: 90%;
+  
+  }
+  
+  .subscribe-form {
+  position: relative;
+  /* si je clique sur email address le cadre blanc ne sera pas affiche */
+  overflow: hidden;  
+  width:20vw ;
+  margin: auto;
+  }
+  .subscribe-form input {
+  width: 100%;
+  padding: 1vw 2vw;
+  background: #3e3a40;
+  border: 1px solid #3e3a40;
+  color: #fff;
+  font-size: 1.2vw;
+  }
+  .subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ebb91d;
+    padding: auto;
+    border: 1px solid #ebb91d;
+    top: 0;
+    width: 30%;
+    height: 100%;
+  }
+  .subscribe-form button i {
+  color: #3e3a40;
+  font-size: 1.5vw;
+  transform: rotate(-6deg);
+  }
 
-}
-
-.copyright{
-position: absolute;
-width: 100%;
-color: #3e3a40;
-line-height: 40px;
-font-size: 0.8em;
-text-align: center;
-bottom:5px;
-}
+  .copyright{
+    position: absolute;
+    width: 100%;
+    color: #3e3a40;
+    line-height: 3vw;
+    font-size: 1.2vw;
+    text-align: center;
+    bottom:5px;
+    }
+    .copyright-area{
+      background: #000000;
+      padding: 2vw 0;
+      margin-top: 3vw;
+      
+      }
+      .copyright-area p{
+        color: #3e3a40;
+      }
+ 
 
 .imageHead  {
   
@@ -202,9 +298,9 @@ bottom:5px;
   text-shadow: 0px 0px 4px black;
   position: absolute;
   top: 0; /* align to top edge of screen */
-  left: 0;
+  /* left: 0;
   right: 0;
-}
+} */
 .imageHead h1{
   background-size: cover;
 background-position: center;
