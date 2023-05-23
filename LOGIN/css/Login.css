@@ -208,7 +208,7 @@ font-weight: 300;
 ::placeholder{
 color: #e5e5e5;
 }
-button{
+#button,button{
 margin-top: 50px;
 width: 100%;
 background-color: #ffffff;

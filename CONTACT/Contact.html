@@ -82,19 +82,18 @@
                 <h2>Veuillez remplir ce champ :</h2>
                 <pre> </pre>
 
-                <form>
+                <form action="../php/Contact.php" method="post">
                     <div>
                         <p><label class="titre">Votre Nom:</label></p>
-                        <input type="text" required placeholder="Nom de l'utilisateur" class="case">
+                        <input type="text" required placeholder="Nom de l'utilisateur" class="case" name="name">
                     </div>
                     <div>
                         <p><label class="titre">Adresse E-mail :</label></p>
-                        <input type="email" required placeholder="Veuiller saisir une adresse E-mail valide"
-                            class="case">
+                        <input type="email" id="email"  placeholder="Entrez votre adresse e-mail" class="case" name="email">
                     </div>
                     <div>
                         <p><label class="titre">Votre numéro de téléphone :</label></p>
-                        <input type="tel" required placeholder="Veuiller saisir votre numéro de téléphone" class="case">
+                        <input type="tel" required placeholder="Veuiller saisir votre numéro de téléphone" class="case" name="phone">
                     </div>
                     <div>
                         <label class="titre">Objet de votre message :</label>
@@ -196,12 +195,12 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
                             <div class="footer-widget">
                                 <ul>
-                                    <li class="border"><a href="#">ACCUEIL</a></li>
-                                    <li class="border"><a href="#">NOS ANIMAUX</a></li>
-                                    <li><a href="#">AIDEZ-NOUS</a></li>
-                                    <li class="border"><a href="#">DON</a></li>
-                                    <li class="border"><a href="#">CONTACT</a></li>
-                                    <li><a href="#">SE CONNECTER</a></li>
+                                    <li class="border"><a href="../ACCUEIL/Accueil.html">ACCUEIL</a></li>
+                                <li class="border"><a href="../NOSANIMAUX/NosAnimaux.html">NOS ANIMAUX</a></li>
+                                <li><a href="../AIDEZ NOUS/AidezNous.html">AIDEZ-NOUS</a></li>
+                                <li class="border"><a href="../DON/Don.html">DON</a></li>
+                                <li class="border"><a href="../CONTACT/Contact.html">CONTACT</a></li>
+                                <li><a href="../LOGIN/Login.html">SE CONNECTER</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -212,8 +211,8 @@
                                 </div>
     
                                 <div class="subscribe-form">
-                                    <form action="#">
-                                        <input type="text" placeholder="Email Address">
+                                    <form action="../php/Newsletter.php" method="post">
+                                        <input type="email" id="email" name="email" placeholder="Entrez votre adresse e-mail">
                                         <button><i class="fab fa-telegram-plane"></i></button>
                                     </form>
                                 </div>

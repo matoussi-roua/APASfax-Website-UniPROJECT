@@ -50,31 +50,32 @@
 
     </div>      
 <div>
-        <form id="form1">
+     
+        <form id="form1" action="../php/Login.php" method="post">
             <h3>Se Connecter</h3>
     
             <label for="username">Nom d'utilisateur</label>
-            <input type="text" placeholder="Adresse e-mail" id="username">
+            <input type="text" placeholder="Adresse e-mail/Nom d'utilisateur" id="user" name="user">
     
             <label for="password">Mot de passe</label>
-            <input type="password" placeholder="Mot de passe" id="password">
+            <input type="password" placeholder="Mot de passe" id="password" name="password">
 
     
-            <button  >Se Connecter</button>
+            <input type="submit" value="Se Connecter" id="button">
             <button id="btn2" type="button" >Nouveau</button>
         </form>
-        <form id="form2">
+        <form id="form2" action="../php/SignUp.php" method="post" >
             <h3>Creer un compte</h3>
             <div class="name">
-            <label for="text">Nom et Prenom</label>
-            <input type="text" placeholder="First name" id="username">
-            <label for="username">Adresse Mail</label>
-            <input type="text" placeholder="Adresse e-mail" id="username">
+            <label for="text">Nom d'utilisateur</label>
+            <input type="text" placeholder="Username" id="username" name="username" >
+            <label for="TEXT">Adresse Mail</label>
+            <input type="text" placeholder="Adresse e-mail" id="MAIL" name="MAIL">
                 
             <label for="password">Mot de passe</label>
-            <input type="password" placeholder="Mot de passe" id="password">
+            <input type="password" placeholder="Mot de passe" id="password" name="password">
             <label for="password">Confirmer Mot de passe</label>
-            <input type="password" placeholder="Mot de passe" id="password">
+            <input type="password" placeholder="Mot de passe" id="passwordconfir">
             
             <button id="btn3">Creer</button>
         </form>
@@ -85,3 +86,6 @@
 <script src="javascript/Login.js"></script>
 </body>
 </html>
+
+
+
