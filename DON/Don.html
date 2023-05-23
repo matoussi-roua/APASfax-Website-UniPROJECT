@@ -11,6 +11,7 @@
 <body>
     <div class="wrapper">
         <div class="payment_form_wrapper">
+            <form action="../php/Don.php" method="post">
             <div class="payment_form">
                 <div class="back_card">
                     <div class="stripe"></div>
@@ -33,16 +34,16 @@
                         <label>CARD NUMBER</label>
                         <div class="input_grp">
                             <div class="input_field">
-                                <input type="text" name="cardNumber" class="input" placeholder="XXXX" maxlength="4" >
+                                <input type="text" name="cardNumber1" class="input" placeholder="XXXX" maxlength="4" >
                             </div>
                             <div class="input_field">
-                                <input type="text" name="cardNumber" class="input" placeholder="XXXX" maxlength="4">
+                                <input type="text" name="cardNumber2" class="input" placeholder="XXXX" maxlength="4">
                             </div>
                             <div class="input_field">
-                                <input type="text" name="cardNumber" class="input" placeholder="XXXX" maxlength="4">
+                                <input type="text" name="cardNumber3" class="input" placeholder="XXXX" maxlength="4">
                             </div>
                             <div class="input_field">
-                                <input type="text" name="cardNumber" class="input" placeholder="XXXX" maxlength="4">
+                                <input type="text" name="cardNumber4" class="input" placeholder="XXXX" maxlength="4">
                             </div>
                             </div>
                         </div>
@@ -50,7 +51,7 @@
                         <div class="input_left">
                             <div class="input_field">
                                 <label>CARD HOLDER</label>
-                                <input type="text" name="cvc-cvv" class="input" placeholder="APA SFAX">
+                                <input type="text" name="name" class="input" placeholder="APA SFAX">
                             </div>
                         </div>
                         <div class="input_right">
@@ -60,7 +61,7 @@
                                     <input type="text" name="month" class="input" placeholder="XX" maxlength="2" >
                                 </div>
                                 <div class="input_field">
-                                    <input type="text" name="date" class="input" placeholder="XX" maxlength="2">
+                                    <input type="text" name="year" class="input" placeholder="XX" maxlength="2">
                                 </div>
                                 </div>
                             </div>
@@ -68,10 +69,11 @@
                     </div>
                 </div>
             </div>
-            <a href="#"><div class="btn">
-                PAY
-            </div></a>
-            <a href="../AIDEZ NOUS/AidezNous.html"><div class="btn">
+            <div class="btn"  >
+                <input type="submit" value="PAY">
+            </div>
+        </form>
+            <a href="../AIDEZ NOUS/AidezNous.html"><div class="back">
                 BACK
             </div></a>
         </div>
