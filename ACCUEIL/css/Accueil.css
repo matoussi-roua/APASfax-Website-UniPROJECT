@@ -39,11 +39,10 @@ cdc8ab gris fetah
   position: absolute;
   top: 0;
   left: 0;
-  /* background-color: rgba(255, 255, 255, 0.8); */
+
   background-color: #000000;
   padding: 0.1% auto;
-  /* border-bottom-left-radius:10% ;
-  border-bottom-right-radius: 10%; */
+
   opacity: 90%;
   }
   #navb{
@@ -197,20 +196,6 @@ cdc8ab gris fetah
   padding-top: 3vw;
   }
   
-  /* .footer-logo {
-  margin-bottom: 1vw;
-  text-align: center;
-  padding: 2vw;
-  }
-  
-  .footer-logo img {
-    max-width: 7vw;
-  } */
-  /* 3e3a40  gris
-  ebb91d jaune
-  f9eb8f beige
-  cdc8ab gris fetah
-  5c6074 bleugris */
   
   /* abonnez vous a newsletter */
   .footer-text{

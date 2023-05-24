@@ -38,16 +38,11 @@ cdc8ab gris fetah
       position: absolute;
       top: 0;
       left: 0;
-      /* background-color: rgba(255, 255, 255, 0.8); */
       background-color: #000000;
       padding: 0.1% auto;
-      /* border-bottom-left-radius:10% ;
-      border-bottom-right-radius: 10%; */
       opacity: 90%;
       }
-    /* #navb{
-      position: fixed;
-    } */
+
     a{
       color: #f9eb8f;
       font-size: 1.1vw;
@@ -147,20 +142,6 @@ cdc8ab gris fetah
   padding-top: 3vw;
   }
   
-  /* .footer-logo {
-  margin-bottom: 1vw;
-  text-align: center;
-  padding: 2vw;
-  }
-  
-  .footer-logo img {
-    max-width: 7vw;
-  } */
-  /* 3e3a40  gris
-  ebb91d jaune
-  f9eb8f beige
-  cdc8ab gris fetah
-  5c6074 bleugris */
   
   /* abonnez vous a newsletter */
   .footer-text{
@@ -312,11 +293,7 @@ cdc8ab gris fetah
     
   
   }
-  /* .child {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);} */
+
      /* centre l'élément horizontalement et verticalement */
   
 h2 {
@@ -343,23 +320,7 @@ h2 {
       border-radius: 10px;
      }
 
-  /* textarea {
-  width: 90%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-bottom: 10px;
-  } */
 
-  /* select{
-  width: 50%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 50px;
-  box-sizing: border-box;
-  margin-bottom: 10px;
-  } */
 
     /* autre remarque */
     .textarea{
@@ -433,11 +394,7 @@ cdc8ab gris fetah
     transform: scale(1);
     order: 2;
   }
-  /* .child {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);} */
+
      /* centre l'élément horizontalement et verticalement */
   
 
@@ -512,11 +469,7 @@ cdc8ab gris fetah
     transform: scale(1);
     order: 1;
   }
-  /* .child {
-    position: absolute;
-    top: 100%;
-    left: 100%;
-    transform: translate(-50%, -50%);}*/
+
      /* centre l'élément horizontalement et verticalement */
   
 
