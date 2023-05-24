@@ -15,7 +15,7 @@ session_start();
         $remarques = $_POST['remarques'];
 
 			
-		$query = "insert into contact (NAME,EMAIL,TEL,OBJECT,REMARQUE) values ('$name','$email','$phone','$phone','$remarques')";
+		$query = "insert into contact (NAME,EMAIL,TEL,OBJECT,REMARQUE) values ('$name','$email','$phone','$objet','$remarques')";
 
 		mysqli_query($conn, $query);
 

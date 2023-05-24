@@ -11,11 +11,13 @@ session_start();
         $email = $_POST['email'];
         $message = $_POST['message'];
 			
-		$query = "insert into adopter (NAME,EMAIL,CHOICE,MESSAGE) values ('$name','$animal','$email','$message')";
+		$query = "insert into adopter (NAME,EMAIL,CHOICE,MESSAGE) values ('$name','$email','$animal','$message')";
 
 		mysqli_query($conn, $query);
 
-		header("Location: ../AIDEZ NOUS/AidezNous.html");
+		header("Content-type: text/html");
+		header("Refresh: 0; URL='javascript:window.close();'");
+		echo "<script>window.close();</script>";
 		die;	
 	}
 ?>

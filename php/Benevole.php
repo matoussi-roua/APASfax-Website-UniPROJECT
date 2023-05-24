@@ -19,7 +19,9 @@ session_start();
 
         mysqli_query($conn, $query);
 
-        header("Location: ../AIDEZ NOUS/AidezNous.html");
+        header("Content-type: text/html");
+		header("Refresh: 0; URL='javascript:window.close();'");
+		echo "<script>window.close();</script>";
         die;	
 	}
 ?>

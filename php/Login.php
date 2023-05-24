@@ -30,7 +30,7 @@ session_start();
 					{
 
 						/*$_SESSION['user_id'] = $user_data['ID'];*/
-						header("Location: ../AIDEZ NOUS/AidezNous.html");
+						header("Location: ../AACCUEIL/Accueil.html");
 						die;
 					}
 				}
